@@ -12,4 +12,5 @@ enum ChessBoardPieceType : int {
   PAWN
 };
 
+#endif
 }
