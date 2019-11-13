@@ -7,8 +7,8 @@ ChessBoard::ChessBoard() {
 
 // copy constructor
 ChessBoard::ChessBoard(ChessBoard &board) {
-  for(int row = 0 ; row < 8 ; i++) {
-    for(int column = 0 ; column < 8 ; j++) {
+  for(int row = 0 ; row < 8 ; row++) {
+    for(int column = 0 ; column < 8 ; column++) {
       this->(fields[row][column]) = board.(fields[row][column]);
     }
   }
